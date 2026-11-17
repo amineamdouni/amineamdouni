@@ -1,15 +1,21 @@
 ### Hi, I'm Amine Amdouni
 
-**Full-stack TypeScript engineer.** I build products end to end with NestJS, Next.js and React Native: the API, the web app, the admin dashboard and the mobile app. I also write Java and Spring Boot.
+**Full-stack TypeScript engineer.** I build products end to end with NestJS, Next.js and React Native: payments, payouts, store builders and the mobile apps on top of them. I also write Java and Spring Boot.
 
 <!-- Add once live:  [Portfolio](https://YOUR-PORTFOLIO.vercel.app) · [CV](https://YOUR-PORTFOLIO.vercel.app/cv.pdf) · Based in YOUR CITY, open to remote -->
 
 ---
 
-### Work
+### Recent work
 
-**E-commerce platforms for multiple clients** · NestJS · Next.js · React Native · Prisma · PostgreSQL · Stripe
-Storefronts, catalogues, carts and checkout, payment integrations, refunds and payouts, the admin dashboards that run them, and the mobile apps on top.
+**Membership & storefront platform** · NestJS · Next.js · Expo · Prisma · PostgreSQL · Redis · Stripe
+Second-largest contributor (489 commits) to a 6-app monorepo with a 152-model schema and ~700 test files. I built most of the storefront side: the store builder, product pages, catalogue stock sync, discount codes, per-payment refund tracking, payout approval, and a paid waitlist on MyFatoorah.
+
+**Creator commerce platform (pre-launch)** · NestJS · Prisma · Next.js · Expo · Stripe Connect
+Primary developer (318 of 320 commits). I built the backend money flow: a double-entry ledger, an outbox processed by a separate worker, payouts, refunds, quotes and fulfillment. CI runs ~960 backend tests against a real Postgres, plus a schema drift check and gitleaks.
+
+**AI storefront builder** · Next.js 16 · React 19 · Prisma · Anthropic & OpenAI APIs
+Merged 108 PRs: an AI agent that edits a seller's store with verified, undoable changes, per-store copy generation, the onboarding flow and the storefront renderer.
 
 **DepoGro: B2B ordering & delivery app** · React Native · Expo · TypeScript · Redux Toolkit
 Largest code contributor to a released app with client, sales-rep and deliverer flows, Arabic (RTL) and French UI, push notifications and map-based locations.
